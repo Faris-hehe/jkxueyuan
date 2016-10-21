@@ -2,7 +2,6 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
 a {
   color: #00B7FF;
 }
@@ -18,4 +17,9 @@ a {
 }
 #index .navbar{
   margin-top: 20px;
+}
+#index .navbar nav{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  align-items: center;
 }
