@@ -35,3 +35,10 @@ a {
 #index .jumbotron{
   padding: 30px 40px;
 }
+
+footer ul{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: center;
+}
+
