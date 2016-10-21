@@ -6,19 +6,19 @@ a {
   color: #00B7FF;
 }
 
-#index .header-items-wrap{
+.header-items-wrap{
   display: flex;
   display: -webkit-flex; /* Safari */
   align-items: center;
 }
-#index .logo-img{
+.logo-img{
   max-width: 210px;
   height: 70px;
 }
-#index .navbar{
+.navbar{
   margin-top: 20px;
 }
-#index .navbar nav{
+.navbar nav{
   display: flex;
   display: -webkit-flex; /* Safari */
   align-items: center;
