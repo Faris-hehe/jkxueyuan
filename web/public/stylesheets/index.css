@@ -6,3 +6,16 @@ body {
 a {
   color: #00B7FF;
 }
+
+#index .header-items-wrap{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  align-items: center;
+}
+#index .logo-img{
+  max-width: 210px;
+  height: 70px;
+}
+#index .navbar{
+  margin-top: 20px;
+}
