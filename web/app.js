@@ -10,8 +10,8 @@ var fs = require('fs');
 var app = express();
 
 // 错误日志
-var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
-app.use(logger('combined', {stream: accessLogStream}));
+//var accessLogStream = fs.createWriteStream(__dirname + '/access.log', {flags: 'a'});
+//app.use(logger('combined', {stream: accessLogStream}));
 // 模板引擎
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
