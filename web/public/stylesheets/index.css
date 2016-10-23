@@ -6,6 +6,7 @@ body {
 a{color: #333333;}
 a:hover{color:#428bca;text-decoration:none}
 a:visited{text-decoration:none}
+a:after{text-decoration:none}
 .clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
 .clearfix{zoom:1}
 
@@ -44,13 +45,16 @@ a:visited{text-decoration:none}
   margin-bottom: 0;
 }
 
+.carousel-wrap{
+  position: relative;
+}
 
 #index #myCarousel{
   margin-top: 20px;
 }
 
 #index .box {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 #index .jumbotron{
@@ -63,3 +67,26 @@ footer ul{
   justify-content: center;
 }
 
+.panel{
+  margin: 50px 0 0;
+}
+.panel-heading h2{
+  font-size: 30px;
+}
+
+
+.article{
+  margin-top: 50px;
+}
+
+.box-left{
+  width: 20%;
+  height: calc(100% - 20px);
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top:20px;
+}
+.box-left .panel{
+  margin-top: 0;
+}
