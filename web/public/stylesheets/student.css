@@ -1,0 +1,210 @@
+html,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+/*body{line-height:1}*/
+/*article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*/
+/*nav ul{list-style:none}*/
+/*blockquote,q{quotes:none}*/
+/*blockquote:before,blockquote:after,q:before,q:after{content:none}*/
+/*a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}*/
+/*ins{background-color:#ff9;color:#000;text-decoration:none}*/
+/*mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}*/
+/*del{text-decoration:line-through}*/
+/*abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}*/
+/*table{border-collapse:collapse;border-spacing:0}*/
+/*hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}*/
+/*input,select{vertical-align:middle}*/
+
+
+
+.esc {
+    position: relative;
+    clear: both;
+    width: 100%;
+}
+
+header, footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    margin: 20px auto;
+    width: 960px;
+    text-align: center;
+}
+
+#logo h1 {
+    font-size: 100px;
+    position: relative;
+    margin: 20px auto auto auto;
+    display: block;
+    float: left;
+}
+
+#logo h1 span {
+    text-transform: none;
+}
+
+#logo a {
+    background: none;
+    display: inline;
+    margin: 0px;
+}
+
+#logo img {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+#logo h2 {
+    font-size: 50px;
+}
+
+
+#content {
+    position: relative;
+    margin: 50px auto;
+    width: 960px;
+}
+/********************************
+ * generic als elements styling
+ ********************************/
+.als-container {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.als-viewport {
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.als-wrapper {
+    position: relative;
+    list-style: none;
+}
+
+.als-item {
+    position: relative;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.als-prev, .als-next {
+    position: absolute;
+    cursor: pointer;
+    clear: both;
+}
+
+
+/**************************
+ * specific als elements
+ * styling for #lista1
+ **************************/
+
+#lista1 {
+    margin: 60px auto 80px auto;
+}
+
+#lista1 .als-item {
+    margin: 0px 30px;
+    min-height: 152px;
+    min-width: 128px;
+}
+
+#lista1 .als-item img {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto 8px;
+    /*margin-bottom: 8px;*/
+}
+
+#lista1 .als-prev, #lista1 .als-next {
+    top: 58px;
+    width: 15px;
+    height: 22px;
+}
+
+#lista1 .als-prev {
+    left: 90px;
+}
+
+#lista1 .als-next {
+    right: 100px;
+}
+
+/************************
+ * specific als element
+ * styling for #lista2
+ ***********************/
+
+#lista2 {
+    margin-bottom: 80px;
+}
+
+#lista2 .als-item {
+    margin: 10px 0px;
+    min-height: 152px;
+    min-width: 128px;
+}
+
+#lista2 .als-item img {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#lista2 .als-prev, #lista2 .als-next {
+    left: 460px;
+    width: 22px;
+    height: 15px;
+}
+
+#lista2 .als-prev {
+    top: -25px;
+}
+
+#lista2 .als-next {
+    bottom: -20px;
+}
+
+#lista2 .als-item {
+    vertical-align: middle;
+}
+
+/*********************
+ * footer style
+ ********************/
+
+#footer {
+    width: 928px;
+    margin: 0 auto;
+    padding: 5px 15px;
+    border: 1px dashed #000;
+    border-radius: 10px;
+}
+
+#footer p {
+    position: relative;
+    margin: 5px auto 10px auto;
+    width: 960px;
+    font-size: 12px;
+}
+
+#footer p.ultimo {
+    margin-bottom: 5px;
+}
