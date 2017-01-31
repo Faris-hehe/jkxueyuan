@@ -1,0 +1,144 @@
+body {
+    padding: 30px 50px;
+    font: 14px Microsoft YaHei, Arial, serif;
+    color: #333333;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    color: #428bca;
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+a:after {
+    text-decoration: none
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.header-items-wrap {
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+}
+
+.logo-img {
+    width: 300px;
+    height: 100px;
+}
+
+.top-navbar {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+    border: none;
+}
+
+.topper {
+    padding-bottom: 10px;
+    /*border-bottom: 2px solid #428bca;*/
+}
+
+.topper .top-navbar li {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.list-inline {
+    margin-bottom: 0;
+}
+
+.carousel-wrap {
+    position: relative;
+}
+
+#index #myCarousel {
+    margin-top: 20px;
+}
+
+#index .box {
+    /*margin-top: 20px;*/
+}
+
+#index .jumbotron {
+    padding: 30px 40px;
+}
+
+footer ul {
+    display: flex;
+    display: -webkit-flex;
+    /* Safari */
+    justify-content: center;
+}
+
+.panel {
+    margin: 50px 0 0;
+}
+
+.panel-heading h2 {
+    font-size: 30px;
+}
+
+.article {
+    margin-top: 50px;
+}
+
+.box-left {
+    width: 20%;
+    height: calc(100% - 20px);
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 20px;
+}
+
+.box-left .panel {
+    margin-top: 0;
+}
+
+.nav-nav {
+    background-color: #f5f5f5;
+}
+
+.nav-nav .list-inline {
+    width: 911px;
+    margin: 0 auto;
+}
+
+.nav-nav .list-inline li {
+    width: 300px;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-nav .list-inline li a {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+}
