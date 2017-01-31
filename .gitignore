@@ -1,2 +1,2 @@
-./web/node_modules/*
-./web/access.log
+./node_modules/*
+./access.log
